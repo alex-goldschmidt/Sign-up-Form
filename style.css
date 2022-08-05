@@ -34,7 +34,7 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-right: 216px;
+  margin-right: 215px;
 }
 
 h1 {
@@ -43,5 +43,23 @@ h1 {
   font-size: 3vmin;
 }
 
-/* margin-right: 216px;
-  margin-left: -10px;
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.835);
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 65vw;
+  height: 730px;
+}
+
+.motto {
+  color: white;
+  font-size: 25px;
+  margin-top: 50px;
+  padding: 0;
+  margin-left: 50px;
+}
