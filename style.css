@@ -38,7 +38,7 @@ img {
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: monospace;
   color: white;
   font-size: 3vmin;
 }
@@ -47,8 +47,6 @@ h1 {
   display: flex;
   justify-content: space-between;
   background: rgba(0, 0, 0, 0.835);
-  width: 200px;
-  height: 200px;
   position: fixed;
   top: 0;
   right: 0;
@@ -63,21 +61,24 @@ h1 {
   padding: 0;
   margin-left: 50px;
   position: absolute;
+  font-family: monospace;
 }
 
 form {
   display: grid;
-  grid-template-columns: 170px 170px;
+  grid-template-columns: 190px 190px;
   align-self: center;
   flex-flow: row wrap;
   gap: 45px;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 15vw;
+  margin-top: 100px;
 }
 
 label {
   color: white;
+  font-family: monospace;
 }
 
 .name {
@@ -93,4 +94,9 @@ input {
   width: 200px;
 }
 
-
+button {
+  margin: 30px 0;
+  padding: 10px 30px;
+  background: gold;
+  font-family: monospace;
+}
