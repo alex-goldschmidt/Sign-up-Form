@@ -92,6 +92,8 @@ input, label {
 
 input {
   width: 200px;
+  border: 3px solid gold;
+
 }
 
 button {
